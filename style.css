@@ -1,175 +1,88 @@
-   
-:root
-{
 
-    --main-radius: 5px;
-    --main-padding:5px;
-    --blue: #1e90ff;
-    --white: #ffffff; 
-    --yellowish: #F7C600;
-    --green:#07dd3d;
-    --pink:#821d6f;
-    --TealGreen:#167D7F;
-    --Spearmint:#98D7C2;
-}
-    
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 1fr 1fr 1fr 1.1fr;
-    grid-template-areas:
-    "nav nav nav "
-    "About skills skills"
-    "p1 p2 p3"
-    "experience experience experience"
-    "education education education"
-    "blogs blogs blogs"
-    "socialmedia socialmedia socialmedia";
-    height: 100vh;
-    color: antiquewhite;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-size: 1EM; 
-    grid-gap:0.5rem;
-}
-    
-nav{
-    background-color: #5cd3ee;
-    grid-area:nav;
-    border-radius: var(--main-radius);
-    padding: 6px;
-    overflow: hidden;
-    height: 2.3em;
-    @media (min-width: 500px){
-            padding: 20px;
-        }
-}
-
-nav a {
-    float: left;
-    display: block;
-    text-decoration: none;
-    padding: 9px 16px;
-    font-size: large;
-}
-    
-    
-#About{
-    background:#d9e5ee;
-    grid-area: About;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-    text-align: center;
-    color:black;
-    align-items: center;
-}
-    
-#skills{
-    background:rgb(156, 164, 170);
-    grid-area: skills;
-    color: rgb(13, 132, 151);
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-}
-    
-#p1{
-    background:#b5b1b0;
-    grid-area: p1;
-    color: black;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-}
-    
-#p2{
-    background: #b5b1b0;
-    grid-area: p2;
-    color: black;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-}
-    
-#p3{
-    background:#b5b1b0;
-    grid-area: p3;
-    color: black;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-}
-    
-#p1,#p2,#p3 p{
-    text-align: center;
-}
-    
-#p1 img{
-     width: 250px; 
-     margin: 10px;
-}
-    
-#p2 img{
-    width: 250px; 
-    margin: 10px;
-}
-    
-#p3 img{
-    width: 250px; 
-    margin: 10px;
-}
-#p3 h1{
-    text-align: center;
-}
-#experience{
-    background: #C4DBE0;
-    grid-area:experience;
-    color: #010609;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-}
-    
-#education{
-    background:#ECFDF1;
-    grid-area: education;
-    color: black;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-}
-    
-#blogs{
-    background: #B4F8C8;
-    grid-area: blogs;
-    color: #0f0e0e;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-}
-    
-#socialmedia{
-    background:#96AD90;
-    grid-area: socialmedia;
-    color: #141515;
-    border-radius: var(--main-radius);
-    padding: var(--main-padding);
-}
-    
-    
-#skills{
-    color: black;
-    padding-top: 20px;
-        
-}
-    
-#socialmedia img {
-    width: 100px; 
-    height: auto; 
-    margin: 10px;; 
-        
-}
-    
-#About img {
-    width: 160px; 
-    height: auto; 
-    margin: 10px;; 
-        
-}    
 body {
-       background-color: hsl(224, 33%, 31%);
+font-family: Arial, sans-serif;
 }
-    
+
+.bord{
+padding: 10px;
+}
+
+.menu {
+display: flex;
+justify-content: space-between;
+padding: 10px;
+background-color: #19ba72;
+}
+
+.bord1{
+padding: 10px;
+border:1px solid  rgb(68, 7, 159);
+}
+.bord2{
+padding: 10px;
+border:1px solid rgb(70, 7, 101);
+}
+.bord3{
+padding: 10px;
+border:1px solid rgb(68, 7, 159);
+}
+.bord4{
+padding: 10px;
+border:1px solid  rgb(68, 7, 159);
+}
+.menu{
+background-color:rgb(117, 172, 21);
+}
+.menu a {
+color: black;
+text-decoration: none;
+}
+
+.container{
+    display: flex;
+}
+.section {
+float: left;
+margin: 19px;
+text-align: left;
+display: flex;
+align-items: center;
+}
+
+.section img {
+width: 470px;
+}	
+
+.container{
+    display: flex;
+}
+.box {
+    float: left; /* Position the divs next to each other */
+    width: 270px; /* Reduced width to accomodate margin */
+    height: 100px; /* Set a height for the divs */
+    margin: 1%; /* Add margin between each box */
+    text-align: center; /* Center the text and image within each box */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.box img {
+    width: 70%; /* Set a width for the images */
+    margin-top: 10px; /* Add margin to position the image centrally within the box */
+}
+
+
+.socialmedia img {
+    margin-bottom: 2px; /* Add margin to position the image centrally within the box */
+    width: 120px; /* Set a width for the images */
+}
+
+.socialmedia p {
+    margin-bottom: 2px; /* Add margin to position the image centrally within the box */
+    width: 120px; /* Set a width for the images */
+}
+
+#skills h2{
+justify-items: left;
+}
+
+
