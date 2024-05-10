@@ -1,94 +1,144 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Resume</title>
-</head>
-<body>
+<!-- The <!DOCTYPE html> declaration is used to tell the web browser the version of HTML the page is
+     written in. It's a key piece of information that ensures your website is displayed correctly.
 
-<div class="container">
-    <nav>
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#blogs">Blogs</a>
-        <a href="#socialmedia">Socialmedia</a>
-    </nav>
-<div id="About" >
-        <img src="profile.png" alt="My Image">
-        <p><b>Lakshmi Reddy Bhavanam</b></p>
-        <p><b>Full Stack Developer</b></p>
-</div>
-<div id='skills'>
-    <h1>Skills</h1>
-    <ul>
-        <li>C/C++</li>
-        <li>JAVA</li>
-        <li>DATA STRUCTURES</li>
-        <li>WEB DEVELOPMENT</li>
-        <li>MYSQL/ORACLE</li>
-        <li>AWS</li>
-        <li>SALESFORCE</li>
-        <li>RPA</li>
-    </ul>
-</div>
+For HTML5, <!DOCTYPE html> is the declaration that should be used.
+ It's always necessary to include it at the very beginning of your HTML documents to ensure proper 
+ standards compliance and correct rendering of elements across all modern browsers. -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <!-- Define the character encoding -->
+ <meta charset="utf-8">
+ <!-- Define the CSS styles -->
+ <link rel="stylesheet" href="style.css">
+ <title>Resume</title>
+ </head>
+ <body>
+ 
+ <div class="menu">
+ <div class="bord">
+ <a href="#home">Menu</a>
+ </div>
+ <div class="bord1">
+ <a href="#skills">Skills</a></div>
+ <div class="bord3">
+ <a href="#projects">Projects</a></div>
+ <div class="bord2">
+ <a href="#experience">Experience</a></div>
+ <div class="bord3">
+ <a href="#education">Education</a></div>
+ <div class="bord4">
+ <a href="#blogs">Blogs</a>
+ </div>
+ </div>
+ 
+ <div class="container">
+ <div id="home" class="section">
+ <img src="profile.png" alt="Home Image">
+ </div>
+ <div id='skills' class='section'>
+ <ul>
+ <h1>Skills</h1>
+ <h2>1.C/C++</h2>
+ <h2>2.JAVA</h2>
+ <h2>3.DATA STRUCTURES</h2>
+ <h2>4.WEB DEVELOPMENT</h2>
+ <h2>5.MYSQL/ORACLE</h2>
+ <h2>6.AWS</h2>
+ <h2>7.SALESFORCE</h2>
+ </ul>
+ </div>
+ </div>
+ <div class="as">
+ <h2>Lakshmi Reddy Bhavanam</h2>
+ <p>Full Stack Developer</p>
+ </div>
+ <div>
+ <hr>
+ <h1>&nbspProjects:</h1>
+ <div class="container">
+ <div id='projects' class="box">
+         <img src="prpic.jpg" alt="Image Description 1">
+         <p><b>SAS PLACEMENT MANAGEMENT SYSTEM</b></p>
+     </div>
+     <div class="box">
+         <img src="prpic.jpg" alt="Image Description 2">
+         <p><b>VEHICLE MANAGEMENT SYSTEM</b></p>
+     </div>
+     <div class="box">
+         <img src="prpic.jpg" alt="Image Description 2">
+         <p><b>RENTAL MANAGEMENT SYSTEM</b></p>
+     </div>
+ </div>	
+    
+     
+     <br><br><br><br><br><br><hr>
+         
+ 
+ <div id='experience'>	
+ <h2>&nbspEXPERIENCE:</h2>
+ <h4>&nbsp&nbspIntern | Suven ConsultantsTechnology Pvt.ltd</h4>
+ <ul>
+     <p>This is a 5 week program in which web developer angular based web applications which also involves training.We have developed three projects using angular.</p>
+ </ul>
+ <h4>&nbsp&nbspIntern | Suven ConsultantsTechnology Pvt.ltd</h4>
+ <ul>
+     <p>This is a 5 week program in which web developer angular based web applications which also involves training.We have developed three projects using angular.</p>
+ </ul>
+ </div>
+ <hr>
 
-<div id="p1">
-    <h1>Project-1</h1>
-    <img src="prpic.jpg" alt="Image Description 1">
-    <p><b>SAS PLACEMENT MANAGEMENT SYSTEM</b></p>
-    <p>Used for placement activities</p>
-</div>
-<div id="p2">
-    <h1>Project-2</h1>
-    <img src="prpic.jpg" alt="Image Description 2">
-    <p><b>VEHICLE MANAGEMENT SYSTEM</b></p>
-    <p> Used for movie tickets booking</p>
-</div>
-<div id="p3">
-    <h1>Project-3</h1>
-    <img src="prpic.jpg" alt="Image Description 2">
-    <p><b>RENTAL MANAGEMENT SYSTEM</b></p>
-    <p>Used for manage the rental cars</p>
-</div>
 
-
-<div id='experience'>
-    <h2>EXPERIENCE:</h2>
-    <h4>Intern | Suven ConsultantsTechnology Pvt.ltd</h4>
-    <p>This is a 5 week program in which web developer angular based web applications which also involves training.We have developed three projects using angular.</p>
-</div>
-
-<div id='education'>
-    <h2>EDUCATION:</h2>
-    <ul>
-        <li>Graduate: University of New Haven ,GPA:4/4 UPTO 1st Semester</li>
-        <li>Under Graduate: KL University ,GPA:8.81/10</li>
-        <li>Intermediate: NRI Junior College ,GPA:9.86/10</li>
-        <li>SSC: Sri Bala Chandra High School ,GPA 9.5/10</li>
-    </ul>
-</div>
-
-<div id='blogs'>
-    <h2>Blogs:</h2>
-    <ul>
-        <li>I want to write a blog regarding cyber threat in future.</li>
-        <li>I want to write a blog regarding cyber threat in future.</li>
-        <li>I want to write a blog regarding cyber threat in future.</li>
-    </ul>
-</div>
-
-<div id='socialmedia'>
-    <h2>Socialmedia:</h2>
-    <img src="mail.jpg" alt="Mail">
-    <img src="linkedin.jpg" alt="LinkedIn">
-    <img src="github.jpg" alt="GitHub">
-</div>
-</div>
-
-</body>
-</html>
+ 
+ <div id='education'>	
+ <h2>&nbspEDUCATION:</h2>
+ 
+ <ul>
+ <li>Graduate: University of New Haven ,GPA:4/4 UPTO 1st Semester</li>
+ <li>Under Graduate: KL University ,GPA:8.81/10</li>
+ <li>Intermediate: NRI Junior College ,GPA:9.86/10</li>
+ <li>SSC: Sri Bala Chandra High School ,GPA 9.5/10</li>
+ </ul>
+ 
+ </div>
+ <hr>
+ <!-- <div id='blogs'>	
+ <h2>&nbspBlogs:</h2>
+ <ul>
+     <li>&nbsp&nbspI want to write a blog regarding cyber threat in future.</li>
+ </ul>
+ </div> -->
+ <h2>&nbspBlogs:</h2>
+ <div class="container">
+    <div id='blogs' class="box">
+            <img src="blog.jpeg" alt="Image Description 1">
+            <p><b>Blog content Blog content</b></p>
+        </div>
+        <div class="box">
+            <img src="blog.jpeg" alt="Image Description 2">
+            <p><b>Blog content Blog content</b></p>
+        </div>
+        <div class="box">
+            <img src="blog.jpeg" alt="Image Description 2">
+            <p><b>Blog content Blog content</b></p>
+        </div>
+        <div class="box">
+            <img src="blog.jpeg" alt="Image Description 2">
+            <p><b>Blog content Blog content </b></p>
+        </div>
+    </div>	
+       
+        
+        <br><br><br><br><br><br><hr>
+ <div class='socialmedia'>
+ <h2>&nbsp&nbsp&nbsp&nbsp<u>@Social_media</u>
+ 
+ <img src="mail.jpg" alt="Image Description 2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <img src="linkedin.jpg" alt="Image Description 2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <img src="github.jpg" alt="Image Description 2">
+ </h2>
+ </div>
+ <hr>
+ </style>
+ </body>
+ </html>
